@@ -79,35 +79,51 @@
 
         </nav>
 
-        {% assign site_rss = site.rss %}
-        {% if site.feed and site.feed.path and site.rss == '' or site.rss == nil %}
-          {% assign site_rss = site.feed.path %}
-        {% endif %}
-        {% if site_rss %}
-          <div class="feed-link motion-element">
-            <a href="{{ site_rss | relative_url }}" rel="alternate">
-              <i class="fa fa-rss"></i>
-              RSS
-            </a>
-          </div>
-        {% endif %}
-
-        <div class="links-of-author motion-element">
-          {% if site.social %}
-            {% for name_link in site.social %}
-              {% assign name = name_link[0] %}
-              {% assign link = name_link[1] %}
-              <span class="links-of-author-item">
-                <a href="{{ link }}" target="_blank" title="{{ name }}">
-                  {% if site.social_icons.enable %}
-                    <i class="fa fa-fw fa-{{ site.social_icons[name] | default: 'globe' | downcase }}"></i>
-                  {% endif %}
-                  {{ name }}
-                </a>
-              </span>
-            {% endfor %}
-          {% endif %}
+        <div class="feed-link motion-element">
+          <a href="{{ site.url }}/assets/CV.pdf" rel="alternate">
+            <i class="fa fa-file"></i>
+            CV
+          </a>
         </div>
+        
+        <div class="feed-link motion-element">
+          <a href="{{ site.github.repo }}" rel="alternate">
+            <i class="fa fa-github"></i>
+            Github
+          </a>
+        </div>          
+
+        <div class="feed-link motion-element">
+          <a href="{{site.url}}/assets/img/wechatcode.png" rel="alternate">
+            <i class="fa fa-wechat"></i>
+            Wechat
+          </a>
+        </div>
+
+        <div class="feed-link motion-element">
+          <a href="{{ site.linkedin }}" rel="alternate">
+            <i class="fa fa-linkedin-square"></i>
+            Linkedin
+          </a>
+        </div>
+        
+        <div class="feed-link motion-element">
+          <a href="{{ site.facebook }}" rel="alternate">
+            <i class="fa fa-facebook-square"></i>
+            Facebook
+          </a>
+        </div>
+        
+        
+        <div class="feed-link motion-element">
+          <a href="{{ site.youtube }}" rel="alternate">
+            <i class="fa fa-youtube-play"></i>
+            PaperTube
+          </a>
+        </div>
+        
+
+        
 
         {% assign cc = 'by, by-nc, by-nc-nd, by-nc-sa, by-nd, by-sa, zero' | split: ', ' %}
         {% if cc contains site.creative_commons %}

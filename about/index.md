@@ -10,7 +10,7 @@ type: about
   B.S. in Biomedical Engineering, <a href="http://www.korea.ac.kr" target="_blank">Korea Univ.</a><br>
   intelligent Bio-MEMS Laboratory (iBML)<br><br>
   [Present]<br>
-  MS&Ph.D Integration Course in Computer Engineering, <a href="http://www.korea.ac.kr" target="_blank">Korea Univ.</a>
+  MS&Ph.D Integration Course in Computer Engineering, <a href="http://www.korea.ac.kr" target="_blank">Korea Univ.</a><br>
   Data Mining and Imformation Systems Laboratory (DMIS)
 </p>
 
@@ -21,10 +21,10 @@ type: about
 
 ### Contact :
 E-mail :    ljhyun33@korea.ac.kr<br>
-<a href="{{ site.github.repo }}">Github</a>
-<a href="{{ site.facebook }}">Facebook</a>
-<a href="{{ site.linkedin }}">Linkedin</a>
-<a href="{{ site.youtube }}">Youtube</a>
+<a href="{{ site.github.repo }}">Github</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="{{ site.facebook }}">Facebook</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="{{ site.linkedin }}">Linkedin</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="{{ site.youtube }}">Youtube</a><br>
 
 Wechat ID : Ant_LJH<br>
 ![wechatcode](/assets/img/wechatcode.png)
