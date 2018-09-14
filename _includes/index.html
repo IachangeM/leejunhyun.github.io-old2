@@ -7,10 +7,6 @@
 
 <section id="posts" class="posts-expand">
   {% for post in posts %}
-    <div>
-      공부한 것들을 정리하는 블로그입니다.
-    </div>
-  
     {% assign is_index = true %}
     {% include _macro/post.html %}
   {% endfor %}
