@@ -22,13 +22,6 @@ type: about
   </div>
 
   <div class="site-state-item">
-        <a href="{{site.url}}/assets/img/wechatcode.png" rel="alternate" style="color: #fc6423">
-          <i class="fa fa-wechat fa-2x"></i><br>
-          Wechat
-        </a>
-  </div>
-
-  <div class="site-state-item">
         <a href="{{ site.linkedin }}" rel="alternate" style="color: #fc6423">
           <i class="fa fa-linkedin-square fa-2x"></i><br>
           Linkedin
@@ -43,12 +36,6 @@ type: about
   </div>
 
 
-  <div class="site-state-item">
-        <a href="{{ site.youtube }}" rel="alternate" style="color: #fc6423">
-          <i class="fa fa-youtube-play fa-2x"></i><br>
-          PaperTube
-        </a>
-  </div>
 </nav>
 
 ### Profile :
@@ -67,11 +54,9 @@ type: about
 </p>
 
 ### Contact :
-E-mail :    ljhyun33@korea.ac.kr<br>
-<a href="{{ site.github.repo }}">Github</a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="{{ site.facebook }}">Facebook</a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="{{ site.linkedin }}">Linkedin</a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="{{ site.youtube }}">Youtube</a><br>
+E-mail :<br>
+ljhyun33@korea.ac.kr<br>
+leejhyun33@gmail.com<br>
 
 Wechat ID : Ant_LJH<br>
 ![wechatcode](/assets/img/wechatcode.png)
