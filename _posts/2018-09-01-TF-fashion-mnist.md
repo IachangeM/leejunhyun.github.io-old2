@@ -11,7 +11,7 @@ tags:
 ---
 
 Reference : [TensorFlow Basic Classification](https://www.tensorflow.org/tutorials/keras/basic_classification)<br>
-`TensorFlow`를 이용하여 Fashion-MNIST dataset을 가지고 classification task를 수행해보는 튜토리얼입니다. 좀더 기초적인 low-level API 가이드는 [TensorFlow  Guide](https://leejunhyun.github.io/coding/2018/09/01/TF-introduction.html)를 참조하시기 바랍니다.<br>
+`TensorFlow`를 이용하여 Fashion-MNIST dataset을 가지고 classification task를 수행해보는 튜토리얼입니다. 좀더 기초적인 low-level API 가이드는 [TensorFlow  Guide](https://leejunhyun.github.io/coding/2018/09/01/TF-introduction/)를 참조하시기 바랍니다.<br>
 
 ![Fashion-MNIST-01](/assets/img/TensorFlow/Fashion-MNIST-01.png)
 *Fashion-MNIST dataset*
