@@ -4,13 +4,53 @@ type: about
 ---
 
 ![profile](/assets/img/profile.png)
+<nav class="site-nav">
+  <ul class="menu">
 
-<div class="feed-link">
-  <a href="{{ site.url }}/assets/CV.pdf" rel="alternate">
-    <i class="fa fa-file"></i>
-    CV
-  </a>
-</div>
+    <li class="menu-item">
+      <a href="{{ site.url }}/assets/CV.pdf" rel="alternate" style="color: #fc6423">
+        <i class="fa fa-file fa-3x"></i><br>
+        CV
+      </a>
+    </li>
+
+    <li class="menu-item">
+        <a href="{{ site.github.repo }}" rel="alternate" style="color: #fc6423">
+          <i class="fa fa-github fa-3x"></i><br>
+          Github
+        </a>
+    </li>
+
+    <li class="menu-item">
+        <a href="{{site.url}}/assets/img/wechatcode.png" rel="alternate" style="color: #fc6423">
+          <i class="fa fa-wechat fa-3x"></i><br>
+          Wechat
+        </a>
+    </li>
+
+    <li class="menu-item">
+        <a href="{{ site.linkedin }}" rel="alternate" style="color: #fc6423">
+          <i class="fa fa-linkedin-square fa-3x"></i><br>
+          Linkedin
+        </a>
+    </li>
+
+    <li class="menu-item">
+        <a href="{{ site.facebook }}" rel="alternate" style="color: #fc6423">
+          <i class="fa fa-facebook-square fa-3x"></i><br>
+          Facebook
+        </a>
+    </li>
+
+
+    <li class="menu-item">
+        <a href="{{ site.youtube }}" rel="alternate" style="color: #fc6423">
+          <i class="fa fa-youtube-play fa-3x"></i><br>
+          PaperTube
+        </a>
+    </li>
+  </ul>
+</nav>
 
 ### Profile :
 
