@@ -241,7 +241,7 @@ youtube:            https://www.youtube.com/channel/UCxq7PSbxVYLC2xOHOARtK3A
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-#avatar:
+avatar: /assets/avatar.png
 
 
 # Table Of Contents in the Sidebar
